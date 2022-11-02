@@ -29,6 +29,22 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /*background-color: rgb(188, 215, 226);*/
   padding: 1rem 3rem;
+  background: linear-gradient(-45deg, #0ccda3, #c1fcd3, #07a3b2, #d9ecc7);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 header h1 {
